@@ -36,6 +36,6 @@ jobs:
             echo "No changes detected. Nothing to commit."
           else
             LATEST=$(node -e "try { const d = require('./data/index.json'); console.log(d.latest_issue || ''); } catch(e) { console.log(''); }")
-            git commit -m "chore(data): auto update weekly rankings [issue #$LATEST]"
+            git commit -m "chore(data): auto update weekly rankings [issue #$LATEST]" -m "Co-authored-by: gemini-code-assist <200291788+gemini-code-assist@users.noreply.github.com>"
             git push
           fi
