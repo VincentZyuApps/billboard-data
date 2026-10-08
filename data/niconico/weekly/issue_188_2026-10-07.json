@@ -1,0 +1,637 @@
+{
+  "source": "niconico",
+  "issue": 188,
+  "type": "weekly",
+  "opus_id": "1256401637789925540",
+  "title": "【2026/10/07】ニコニコ VOCALOID SONGS TOP20",
+  "year": 2026,
+  "date": "2026-10-07",
+  "week": 41,
+  "pub_time_str": "编辑于 2026年10月07日 19:03",
+  "pub_ts": "1791367202",
+  "source_url": "https://www.bilibili.com/opus/1256401637789925540",
+  "updated_at": "2026-10-08T16:28:45.999086+00:00",
+  "total_ranked": 20,
+  "items": [
+    {
+      "rank": 1,
+      "title": "楽園",
+      "author": "Orangestar",
+      "prev_rank": "—",
+      "weeks": 1,
+      "aid": "117371993852846",
+      "bvid": "BV1mTaQ63Ek3",
+      "url": "https://www.bilibili.com/video/BV1mTaQ63Ek3",
+      "pic_url": "http://i0.hdslb.com/bfs/archive/1cade2b6c62244e4c7c67a4d1927b88a8b02c7bc.jpg",
+      "video_meta": {
+        "title": "【ナースロボ_タイプT】乐园【Orangestar】",
+        "pic": "http://i0.hdslb.com/bfs/archive/1cade2b6c62244e4c7c67a4d1927b88a8b02c7bc.jpg",
+        "duration": 176,
+        "pubdate": 1790955637,
+        "uploader": {
+          "mid": 797614,
+          "name": "阿赫official",
+          "face": "https://i1.hdslb.com/bfs/face/b090ddf7683e29ad1d0b1d5d475d1e9b93c22266.jpg"
+        },
+        "stat": {
+          "view": 18257,
+          "danmaku": 48,
+          "reply": 522,
+          "favorite": 1123,
+          "coin": 173,
+          "share": 823,
+          "like": 1685
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "title": "えねみぃ",
+      "author": "ピノキオピー",
+      "prev_rank": "—",
+      "weeks": 1,
+      "aid": "117357800330860",
+      "bvid": "BV1UGa961Ejt",
+      "url": "https://www.bilibili.com/video/BV1UGa961Ejt",
+      "pic_url": "http://i1.hdslb.com/bfs/archive/1a583d1935ec700ea3315530617bc035b0ca8a6a.jpg",
+      "video_meta": {
+        "title": "ピノキオピー - えねみぃ feat. 初音ミク・重音テト",
+        "pic": "http://i1.hdslb.com/bfs/archive/1a583d1935ec700ea3315530617bc035b0ca8a6a.jpg",
+        "duration": 181,
+        "pubdate": 1790935200,
+        "uploader": {
+          "mid": 203655966,
+          "name": "ピノキオピー_official",
+          "face": "https://i0.hdslb.com/bfs/face/ada46abe245f03fc216acf1585b3f1e31991b7f9.jpg"
+        },
+        "stat": {
+          "view": 2790004,
+          "danmaku": 51841,
+          "reply": 40799,
+          "favorite": 131498,
+          "coin": 111631,
+          "share": 29827,
+          "like": 303842
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "title": "デビットビット",
+      "author": "アボガド6",
+      "prev_rank": "1",
+      "weeks": 7,
+      "aid": "117285909956838",
+      "bvid": "BV1UheG6uE1e",
+      "url": "https://www.bilibili.com/video/BV1UheG6uE1e",
+      "pic_url": "http://i2.hdslb.com/bfs/archive/57cd8aa7291ae99853d12fe7ceb3308fc45cbf33.jpg",
+      "video_meta": {
+        "title": "【Avogado6自投稿】Debit Bit/Calogado",
+        "pic": "http://i2.hdslb.com/bfs/archive/57cd8aa7291ae99853d12fe7ceb3308fc45cbf33.jpg",
+        "duration": 144,
+        "pubdate": 1789641283,
+        "uploader": {
+          "mid": 1757463037,
+          "name": "Avogado6",
+          "face": "https://i1.hdslb.com/bfs/face/d0e0c442c44881d0a153ff83f7c18c4f7656fbf9.jpg"
+        },
+        "stat": {
+          "view": 803419,
+          "danmaku": 1673,
+          "reply": 2334,
+          "favorite": 59864,
+          "coin": 34079,
+          "share": 5511,
+          "like": 111106
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "title": "もしもしも",
+      "author": "なきそ",
+      "prev_rank": "—",
+      "weeks": 1,
+      "aid": "117370735625322",
+      "bvid": "BV1fnaS69ES2",
+      "url": "https://www.bilibili.com/video/BV1fnaS69ES2",
+      "pic_url": "http://i0.hdslb.com/bfs/archive/b3fecacb7c582917879a30b234766d800a0bc023.jpg",
+      "video_meta": {
+        "title": "【初音ミク】もしもしも【なきそ】",
+        "pic": "http://i0.hdslb.com/bfs/archive/b3fecacb7c582917879a30b234766d800a0bc023.jpg",
+        "duration": 139,
+        "pubdate": 1790935553,
+        "uploader": {
+          "mid": 183675426,
+          "name": "青杉折扇",
+          "face": "https://i0.hdslb.com/bfs/face/8390a1afd7ad1cdd0aa3d8b34a53d8b9eafc2c67.jpg"
+        },
+        "stat": {
+          "view": 8438,
+          "danmaku": 20,
+          "reply": 50,
+          "favorite": 1473,
+          "coin": 71,
+          "share": 136,
+          "like": 1460
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "title": "メズマライザー",
+      "author": "サツキ",
+      "prev_rank": "7",
+      "weeks": 108,
+      "aid": "1254639592",
+      "bvid": "BV15J4m1A7qy",
+      "url": "https://www.bilibili.com/video/BV15J4m1A7qy",
+      "pic_url": "http://i0.hdslb.com/bfs/archive/c4496e1c95132a8dd859f9ad52d92a7e58efec75.jpg",
+      "video_meta": {
+        "title": "【官方投稿】メズマライザー / 初音ミク・重音テトSV",
+        "pic": "http://i0.hdslb.com/bfs/archive/c4496e1c95132a8dd859f9ad52d92a7e58efec75.jpg",
+        "duration": 158,
+        "pubdate": 1715590800,
+        "uploader": {
+          "mid": 1829236187,
+          "name": "サツキ_Official",
+          "face": "https://i2.hdslb.com/bfs/face/cf3829a591ca4993d29b6437a05b20aeebe3de14.jpg"
+        },
+        "stat": {
+          "view": 23147462,
+          "danmaku": 74031,
+          "reply": 29626,
+          "favorite": 763402,
+          "coin": 304301,
+          "share": 102517,
+          "like": 771355
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "title": "アンノウン・マザーグース",
+      "author": "wowaka",
+      "prev_rank": "4",
+      "weeks": 139,
+      "aid": "13673279",
+      "bvid": "BV1hx411b7CZ",
+      "url": "https://www.bilibili.com/video/BV1hx411b7CZ",
+      "pic_url": "http://i0.hdslb.com/bfs/archive/7ddfa2f540cd40a8b53b25231aeb01a49878bb06.jpg",
+      "video_meta": {
+        "title": "【初音ミク】Unknown Mother-Goose【wowaka】",
+        "pic": "http://i0.hdslb.com/bfs/archive/7ddfa2f540cd40a8b53b25231aeb01a49878bb06.jpg",
+        "duration": 858,
+        "pubdate": 1503392667,
+        "uploader": {
+          "mid": 4429452,
+          "name": "手速超快的初总",
+          "face": "http://i0.hdslb.com/bfs/face/caef5505da149cd3edab04ddeaa50abf099731d8.jpg"
+        },
+        "stat": {
+          "view": 7580462,
+          "danmaku": 61495,
+          "reply": 19922,
+          "favorite": 292043,
+          "coin": 65150,
+          "share": 54247,
+          "like": 230864
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "title": "ラビットホール",
+      "author": "DECO*27",
+      "prev_rank": "16",
+      "weeks": 86,
+      "aid": "656214120",
+      "bvid": "BV1aa4y1u7Ct",
+      "url": "https://www.bilibili.com/video/BV1aa4y1u7Ct",
+      "pic_url": "http://i1.hdslb.com/bfs/archive/93c3134fa63032a667b7e43279f9b0a616454fed.jpg",
+      "video_meta": {
+        "title": "DECO*27 - ラビットホール feat. 初音ミク",
+        "pic": "http://i1.hdslb.com/bfs/archive/93c3134fa63032a667b7e43279f9b0a616454fed.jpg",
+        "duration": 163,
+        "pubdate": 1684490400,
+        "uploader": {
+          "mid": 177291194,
+          "name": "DECO27_Official",
+          "face": "https://i2.hdslb.com/bfs/face/59622e1e73df45178cc16cb53b694cd770912edd.jpg"
+        },
+        "stat": {
+          "view": 7014035,
+          "danmaku": 12558,
+          "reply": 9668,
+          "favorite": 243903,
+          "coin": 113309,
+          "share": 31856,
+          "like": 291856
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "title": "晴天のスヌーズ",
+      "author": "shikisai",
+      "prev_rank": "—",
+      "weeks": 1,
+      "aid": "117338020120602",
+      "bvid": "BV1LXhd6PE4D",
+      "url": "https://www.bilibili.com/video/BV1LXhd6PE4D",
+      "pic_url": "http://i2.hdslb.com/bfs/archive/fc5a05316f388b32e896f53d009c85d1ab56d181.jpg",
+      "video_meta": {
+        "title": "【初音ミク】晴天のスヌーズ（晴天小憩）【shikisai】",
+        "pic": "http://i2.hdslb.com/bfs/archive/fc5a05316f388b32e896f53d009c85d1ab56d181.jpg",
+        "duration": 247,
+        "pubdate": 1790436382,
+        "uploader": {
+          "mid": 797614,
+          "name": "阿赫official",
+          "face": "https://i1.hdslb.com/bfs/face/b090ddf7683e29ad1d0b1d5d475d1e9b93c22266.jpg"
+        },
+        "stat": {
+          "view": 6707,
+          "danmaku": 6,
+          "reply": 32,
+          "favorite": 1184,
+          "coin": 80,
+          "share": 92,
+          "like": 1306
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "title": "ノーマルエンド",
+      "author": "ぬゆり",
+      "prev_rank": "—",
+      "weeks": 1,
+      "aid": "117335604137538",
+      "bvid": "BV1Ech96cE52",
+      "url": "https://www.bilibili.com/video/BV1Ech96cE52",
+      "pic_url": "http://i0.hdslb.com/bfs/archive/4fbace34788b361f4d9465218b7f9a6055143cd1.jpg",
+      "video_meta": {
+        "title": "〖本家投稿〗ノーマルエンド[NORMAL END] / ぬゆり feat.重音テトSV,ナースロボ_タイプT",
+        "pic": "http://i0.hdslb.com/bfs/archive/4fbace34788b361f4d9465218b7f9a6055143cd1.jpg",
+        "duration": 245,
+        "pubdate": 1790499600,
+        "uploader": {
+          "mid": 253769932,
+          "name": "ぬゆりnulutOfficial",
+          "face": "https://i1.hdslb.com/bfs/face/96d5e4d2d34287307dfcbe5dd1367d0482f20d65.jpg"
+        },
+        "stat": {
+          "view": 9144,
+          "danmaku": 67,
+          "reply": 105,
+          "favorite": 1224,
+          "coin": 733,
+          "share": 258,
+          "like": 1603
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "title": "少女レイ",
+      "author": "みきとP",
+      "prev_rank": "5",
+      "weeks": 29,
+      "aid": "27304533",
+      "bvid": "BV1Rs411N7Aq",
+      "url": "https://www.bilibili.com/video/BV1Rs411N7Aq",
+      "pic_url": "http://i1.hdslb.com/bfs/archive/b8244c779a05c2f6ec30cb31bb4b2175d65a3f8d.jpg",
+      "video_meta": {
+        "title": "【原创PV】少女レイ／少女Rei feat.初音未来【Mikito P】",
+        "pic": "http://i1.hdslb.com/bfs/archive/b8244c779a05c2f6ec30cb31bb4b2175d65a3f8d.jpg",
+        "duration": 290,
+        "pubdate": 1532078813,
+        "uploader": {
+          "mid": 108833238,
+          "name": "みきとP_mikitoP",
+          "face": "https://i0.hdslb.com/bfs/face/8168a7873da301173e429f3609cfb95ec6937ee0.jpg"
+        },
+        "stat": {
+          "view": 1225266,
+          "danmaku": 1379,
+          "reply": 1804,
+          "favorite": 59156,
+          "coin": 28731,
+          "share": 17627,
+          "like": 47608
+        }
+      }
+    },
+    {
+      "rank": 11,
+      "title": "分かっちゃいないね",
+      "author": "monet",
+      "prev_rank": "9",
+      "weeks": 12,
+      "aid": "117091730460403",
+      "bvid": "BV1JrgA6MEMG",
+      "url": "https://www.bilibili.com/video/BV1JrgA6MEMG",
+      "pic_url": "http://i1.hdslb.com/bfs/archive/d4dee162eee4596b462a6b5f07ff30d55004678e.jpg",
+      "video_meta": {
+        "title": "【本家投稿】分かっちゃいないね（还真是什么都不懂呢）/ monet feat.花隈千冬",
+        "pic": "http://i1.hdslb.com/bfs/archive/d4dee162eee4596b462a6b5f07ff30d55004678e.jpg",
+        "duration": 237,
+        "pubdate": 1786678305,
+        "uploader": {
+          "mid": 3707030695053439,
+          "name": "monet_vocaloid",
+          "face": "https://i1.hdslb.com/bfs/face/97db14e7e85e42b068d9b1ecaa70240072513c97.jpg"
+        },
+        "stat": {
+          "view": 2398081,
+          "danmaku": 7627,
+          "reply": 5798,
+          "favorite": 229865,
+          "coin": 69767,
+          "share": 11296,
+          "like": 303769
+        }
+      }
+    },
+    {
+      "rank": 12,
+      "title": "千本桜",
+      "author": "黒うさ",
+      "prev_rank": "14",
+      "weeks": 45,
+      "aid": "145552",
+      "bvid": "BV1ux411w71U",
+      "url": "https://www.bilibili.com/video/BV1ux411w71U",
+      "pic_url": "http://i0.hdslb.com/bfs/archive/9468c721e7210395c01655dfb72c5500c983916f.jpg",
+      "video_meta": {
+        "title": "『黒うさ』千本桜『PV』",
+        "pic": "http://i0.hdslb.com/bfs/archive/9468c721e7210395c01655dfb72c5500c983916f.jpg",
+        "duration": 488,
+        "pubdate": 1316255484,
+        "uploader": {
+          "mid": 66995,
+          "name": "iNSaNiTY°",
+          "face": "http://i2.hdslb.com/bfs/face/dd576e00154bcc0b70987b31a1e89f801ba941ef.jpg"
+        },
+        "stat": {
+          "view": 1489115,
+          "danmaku": 16282,
+          "reply": 4967,
+          "favorite": 57810,
+          "coin": 10040,
+          "share": 4087,
+          "like": 33603
+        }
+      }
+    },
+    {
+      "rank": 13,
+      "title": "ロミオとシンデレラ",
+      "author": "doriko",
+      "prev_rank": "6",
+      "weeks": 7,
+      "aid": "11787782",
+      "bvid": "BV1ux411r78o",
+      "url": "https://www.bilibili.com/video/BV1ux411r78o",
+      "pic_url": "http://i1.hdslb.com/bfs/archive/717ba4b433d87d03e97012eaa2bce4b6c582fa6c.jpg",
+      "video_meta": {
+        "title": "【初音ミク】罗密欧与辛德瑞拉【doriko】",
+        "pic": "http://i1.hdslb.com/bfs/archive/717ba4b433d87d03e97012eaa2bce4b6c582fa6c.jpg",
+        "duration": 281,
+        "pubdate": 1498899746,
+        "uploader": {
+          "mid": 2329257,
+          "name": "Hanaeko",
+          "face": "https://i0.hdslb.com/bfs/face/732bc1214b7d86899a53ddc5cc6725d3ce180495.jpg"
+        },
+        "stat": {
+          "view": 1320475,
+          "danmaku": 596,
+          "reply": 1653,
+          "favorite": 54393,
+          "coin": 5098,
+          "share": 7470,
+          "like": 40701
+        }
+      }
+    },
+    {
+      "rank": 14,
+      "title": "洗脳",
+      "author": "DECO*27",
+      "prev_rank": "13",
+      "weeks": 5,
+      "aid": "117148622132829",
+      "bvid": "BV1UW8i6tEo1",
+      "url": "https://www.bilibili.com/video/BV1UW8i6tEo1",
+      "pic_url": "http://i0.hdslb.com/bfs/archive/1990b0672ac4bee26abdb8ef4c995b2273320b33.jpg",
+      "video_meta": {
+        "title": "DECO*27 - 洗脳 feat. 初音未来",
+        "pic": "http://i0.hdslb.com/bfs/archive/1990b0672ac4bee26abdb8ef4c995b2273320b33.jpg",
+        "duration": 173,
+        "pubdate": 1788516300,
+        "uploader": {
+          "mid": 177291194,
+          "name": "DECO27_Official",
+          "face": "https://i2.hdslb.com/bfs/face/59622e1e73df45178cc16cb53b694cd770912edd.jpg"
+        },
+        "stat": {
+          "view": 1669934,
+          "danmaku": 13433,
+          "reply": 11368,
+          "favorite": 84653,
+          "coin": 64657,
+          "share": 19290,
+          "like": 197026
+        }
+      }
+    },
+    {
+      "rank": 15,
+      "title": "ループザルーム",
+      "author": "ルシノ",
+      "prev_rank": "15",
+      "weeks": 39,
+      "aid": "115752338194968",
+      "bvid": "BV1zBq6BuEyH",
+      "url": "https://www.bilibili.com/video/BV1zBq6BuEyH",
+      "pic_url": "http://i2.hdslb.com/bfs/archive/746172412ad257a3bd56953503529d1ef59bf611.jpg",
+      "video_meta": {
+        "title": "【Official】ループザルーム / ルシノ feat. 初音ミク【Looping the Rooms】",
+        "pic": "http://i2.hdslb.com/bfs/archive/746172412ad257a3bd56953503529d1ef59bf611.jpg",
+        "duration": 135,
+        "pubdate": 1766240604,
+        "uploader": {
+          "mid": 3690990013516307,
+          "name": "rusino777",
+          "face": "https://i2.hdslb.com/bfs/face/4ca6943ee0d3e52ae518747b9e903053062db22c.jpg"
+        },
+        "stat": {
+          "view": 6298755,
+          "danmaku": 19396,
+          "reply": 10784,
+          "favorite": 306498,
+          "coin": 76707,
+          "share": 25044,
+          "like": 279208
+        }
+      }
+    },
+    {
+      "rank": 16,
+      "title": "ヤラララ(YARARARA)",
+      "author": "AnythingBecomeMoe",
+      "prev_rank": "—",
+      "weeks": 13,
+      "aid": "116634635279017",
+      "bvid": "BV1NPGd6wE4g",
+      "url": "https://www.bilibili.com/video/BV1NPGd6wE4g",
+      "pic_url": "http://i0.hdslb.com/bfs/archive/ca790261735957771b574b5a62c0a635e1852e81.jpg",
+      "video_meta": {
+        "title": "【中译版】[MV] ABM - '[呀啦啦啦]ヤラララ' (YARARARA) feat. 重音テト",
+        "pic": "http://i0.hdslb.com/bfs/archive/ca790261735957771b574b5a62c0a635e1852e81.jpg",
+        "duration": 157,
+        "pubdate": 1779703554,
+        "uploader": {
+          "mid": 2705870,
+          "name": "苏维埃冰棺中的伊利亚",
+          "face": "https://i2.hdslb.com/bfs/face/2a779f34ff2a889d56d215eccd1764a9537dd667.jpg"
+        },
+        "stat": {
+          "view": 5082907,
+          "danmaku": 23024,
+          "reply": 7540,
+          "favorite": 227938,
+          "coin": 38276,
+          "share": 32478,
+          "like": 233335
+        }
+      }
+    },
+    {
+      "rank": 17,
+      "title": "神っぽいな",
+      "author": "ピノキオピー",
+      "prev_rank": "20",
+      "weeks": 78,
+      "aid": "890496283",
+      "bvid": "BV1iP4y1Y7NE",
+      "url": "https://www.bilibili.com/video/BV1iP4y1Y7NE",
+      "pic_url": "http://i1.hdslb.com/bfs/archive/27d1479ac09bc0ce6bd1cf1fc981fed509607784.jpg",
+      "video_meta": {
+        "title": "【初音ミク】神っぽいな (像神一样呐)【ピノキオピー】",
+        "pic": "http://i1.hdslb.com/bfs/archive/27d1479ac09bc0ce6bd1cf1fc981fed509607784.jpg",
+        "duration": 205,
+        "pubdate": 1631872802,
+        "uploader": {
+          "mid": 203655966,
+          "name": "ピノキオピー_official",
+          "face": "https://i0.hdslb.com/bfs/face/ada46abe245f03fc216acf1585b3f1e31991b7f9.jpg"
+        },
+        "stat": {
+          "view": 14801483,
+          "danmaku": 38162,
+          "reply": 35874,
+          "favorite": 482512,
+          "coin": 239621,
+          "share": 72582,
+          "like": 529796
+        }
+      }
+    },
+    {
+      "rank": 18,
+      "title": "熱異常",
+      "author": "いよわ",
+      "prev_rank": "3",
+      "weeks": 35,
+      "aid": "773781060",
+      "bvid": "BV1R14y187kf",
+      "url": "https://www.bilibili.com/video/BV1R14y187kf",
+      "pic_url": "http://i2.hdslb.com/bfs/archive/2df51043b633d72ecce10d97b3df1a4f36dbc33b.jpg",
+      "video_meta": {
+        "title": "【足立レイ】熱異常【いよわ】【中文CC字幕】",
+        "pic": "http://i2.hdslb.com/bfs/archive/2df51043b633d72ecce10d97b3df1a4f36dbc33b.jpg",
+        "duration": 242,
+        "pubdate": 1665157801,
+        "uploader": {
+          "mid": 4676168,
+          "name": "精神安定剤",
+          "face": "https://i2.hdslb.com/bfs/face/940f1169789907a70506bd82506ae1d097e8f163.jpg"
+        },
+        "stat": {
+          "view": 4550120,
+          "danmaku": 21331,
+          "reply": 7254,
+          "favorite": 184711,
+          "coin": 29335,
+          "share": 42681,
+          "like": 149466
+        }
+      }
+    },
+    {
+      "rank": 19,
+      "title": "アンブレラ・アンブレラ",
+      "author": "Adeliae",
+      "prev_rank": "—",
+      "weeks": 1,
+      "aid": "117347549452170",
+      "bvid": "BV13GaG6vE7t",
+      "url": "https://www.bilibili.com/video/BV13GaG6vE7t",
+      "pic_url": "http://i2.hdslb.com/bfs/archive/afabbfb397c0eee4cb19c6bd192bda5ebc49bfdf.jpg",
+      "video_meta": {
+        "title": "伞·伞 (Umbrella & Umbrella) feat. 镜音リン・レン / Adeliae",
+        "pic": "http://i2.hdslb.com/bfs/archive/afabbfb397c0eee4cb19c6bd192bda5ebc49bfdf.jpg",
+        "duration": 163,
+        "pubdate": 1790683200,
+        "uploader": {
+          "mid": 3493114085902595,
+          "name": "Adeliae_アデリー",
+          "face": "https://i2.hdslb.com/bfs/face/8022abfd4945164c3e39392d86e0640a78a97332.jpg"
+        },
+        "stat": {
+          "view": 4496,
+          "danmaku": 9,
+          "reply": 49,
+          "favorite": 1090,
+          "coin": 245,
+          "share": 106,
+          "like": 1513
+        }
+      }
+    },
+    {
+      "rank": 20,
+      "title": "フォニイ",
+      "author": "ツミキ",
+      "prev_rank": "11",
+      "weeks": 129,
+      "aid": "205988503",
+      "bvid": "BV1ih411e7gn",
+      "url": "https://www.bilibili.com/video/BV1ih411e7gn",
+      "pic_url": "http://i0.hdslb.com/bfs/archive/a9d611c4c788a9a5f71d9bb48ebfa09d71f9f3c8.jpg",
+      "video_meta": {
+        "title": "フォニイ / phony / 偽物 - kafu [オリジナル] - ツミキ",
+        "pic": "http://i0.hdslb.com/bfs/archive/a9d611c4c788a9a5f71d9bb48ebfa09d71f9f3c8.jpg",
+        "duration": 567,
+        "pubdate": 1622887782,
+        "uploader": {
+          "mid": 31596887,
+          "name": "羊小星",
+          "face": "https://i2.hdslb.com/bfs/face/0f2ac4e438b3615860969bc89a39c4e7d2bbda2f.jpg"
+        },
+        "stat": {
+          "view": 4868519,
+          "danmaku": 19911,
+          "reply": 2814,
+          "favorite": 184589,
+          "coin": 23847,
+          "share": 32978,
+          "like": 136686
+        }
+      }
+    }
+  ]
+}

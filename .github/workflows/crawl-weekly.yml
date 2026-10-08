@@ -2,10 +2,14 @@ name: Crawl Weekly Ranking
 
 on:
   schedule:
-    # 北京时间 每周三 18:05 触发 (UTC 10:05)
+    # 策略 1: Bili Board 术力口周榜（每周三 18:05 与 18:35 调度）
     - cron: '5 10 * * 3'
-    # 北京时间 每周三 18:35 兜底重试 (UTC 10:35)
     - cron: '35 10 * * 3'
+    # 策略 2: Niconico VOCALOID 周榜（周三 19:00 至 20:30 每 10 分钟高密轮询）
+    # UTC 11:00, 11:10, 11:20, 11:30, 11:40, 11:50 -> 北京时间 19:00 - 19:50
+    - cron: '0,10,20,30,40,50 11 * * 3'
+    # UTC 12:00, 12:10, 12:20, 12:30 -> 北京时间 20:00 - 20:30
+    - cron: '0,10,20,30 12 * * 3'
   workflow_dispatch: # 支持手动触发
 
 jobs:
@@ -23,9 +27,13 @@ jobs:
         with:
           version: "latest"
 
-      - name: Run crawler
+      - name: Run Bilibili crawler
         run: |
-          uv run scripts/crawler.py --incremental
+          uv run scripts/crawler_bilibili.py --incremental
+
+      - name: Run Niconico crawler
+        run: |
+          uv run scripts/crawler_niconico.py --incremental
 
       - name: Commit and push changes
         run: |
@@ -35,7 +43,8 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes detected. Nothing to commit."
           else
-            LATEST=$(node -e "try { const d = require('./data/index.json'); console.log(d.latest_issue || ''); } catch(e) { console.log(''); }")
-            git commit -m "chore(data): auto update weekly rankings [issue #$LATEST]" -m "Co-authored-by: gemini-code-assist <200291788+gemini-code-assist@users.noreply.github.com>"
+            BILI_LATEST=$(node -e "try { const d = require('./data/bilibili/index.json'); console.log(d.latest_issue || ''); } catch(e) { console.log(''); }")
+            NICO_LATEST=$(node -e "try { const d = require('./data/niconico/index.json'); console.log(d.latest_issue || ''); } catch(e) { console.log(''); }")
+            git commit -m "chore(data): auto update weekly rankings [bilibili #$BILI_LATEST | niconico #$NICO_LATEST]" -m "Co-authored-by: gemini-code-assist <200291788+gemini-code-assist@users.noreply.github.com>"
             git push
           fi

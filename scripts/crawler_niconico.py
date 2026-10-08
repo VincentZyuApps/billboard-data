@@ -6,7 +6,7 @@
 # ///
 
 import argparse
-from datetime import datetime, timezone
+from datetime import datetime, timezone, date
 import json
 import os
 from pathlib import Path
@@ -16,14 +16,14 @@ import time
 from typing import Any, Dict, List, Optional, Tuple
 import httpx
 
-UID = 3546800279522160
+UID = 12446725
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
+DATA_DIR = BASE_DIR / "data" / "niconico"
 WEEKLY_DIR = DATA_DIR / "weekly"
 INDEX_FILE = DATA_DIR / "index.json"
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
 }
 
 
@@ -32,41 +32,35 @@ def get_client() -> httpx.Client:
 
 
 def parse_issue_metadata(content: str, opus_id: str) -> Optional[Dict[str, Any]]:
-    # 匹配周榜期数
-    issue_match = re.search(r"第\s*(\d+)\s*期", content)
-    if not issue_match or "周榜" not in content:
+    if "VOCALOID SONGS TOP20" not in content:
         return None
 
-    issue = int(issue_match.group(1))
-    is_legend = "传说曲" in content
-    ranking_type = "legend" if is_legend else "weekly"
+    date_match = re.search(r"【(\d{4})/(\d{2})/(\d{2})】", content)
+    if not date_match:
+        return None
 
-    # 提取年份和日期
-    date_str = ""
-    year = None
-    date_match = re.search(r"(\d{4})年(\d{1,2})月(\d{1,2})日", content)
-    if date_match:
-        year = int(date_match.group(1))
-        month = int(date_match.group(2))
-        day = int(date_match.group(3))
-        date_str = f"{year:04d}-{month:02d}-{day:02d}"
+    year = int(date_match.group(1))
+    month = int(date_match.group(2))
+    day = int(date_match.group(3))
+    date_str = f"{year:04d}-{month:02d}-{day:02d}"
 
-    # 提取周数
-    week = None
-    week_match = re.search(r"第\s*(\d+)\s*周", content)
-    if week_match:
-        week = int(week_match.group(1))
+    base_date = date(2026, 10, 7)
+    cur_date = date(year, month, day)
+    diff_weeks = (cur_date - base_date).days // 7
+    issue = 188 + diff_weeks
+
+    filename = f"issue_{issue}_{date_str}.json"
 
     return {
         "issue": issue,
-        "type": ranking_type,
+        "type": "weekly",
         "opus_id": str(opus_id),
         "title": content.strip(),
         "year": year,
         "date": date_str,
-        "week": week,
+        "week": cur_date.isocalendar()[1],
         "source_url": f"https://www.bilibili.com/opus/{opus_id}",
-        "path": f"weekly/{issue}.json" if ranking_type == "weekly" else f"legend/{issue}.json",
+        "path": f"weekly/{filename}",
     }
 
 
@@ -76,7 +70,7 @@ def fetch_opus_list(client: httpx.Client, max_pages: int = 100) -> List[Dict[str
     has_more = True
     page = 1
 
-    print(f"[*] Starting to fetch opus list for UID {UID}...")
+    print(f"[*] Starting to fetch Niconico opus list for UID {UID}...")
 
     while has_more and page <= max_pages:
         url = f"https://api.bilibili.com/x/polymer/web-dynamic/v1/opus/feed/space?host_mid={UID}"
@@ -120,12 +114,8 @@ def fetch_and_parse_detail(client: httpx.Client, opus_id: str, retries: int = 3)
             resp = client.get(url)
             resp.raise_for_status()
             data = resp.json()
-            if data.get("code") == 0:
-                if data.get("data", {}).get("fallback"):
-                    print(f"        [*] Legacy cv article format, skipping.")
-                    return [], "", None
-                if data.get("data", {}).get("item"):
-                    break
+            if data.get("code") == 0 and data.get("data", {}).get("item"):
+                break
             print(f"        [!] Attempt {attempt} got response: {data.get('code')}, retrying...")
         except Exception as e:
             print(f"        [!] Attempt {attempt} error: {e}, retrying...")
@@ -155,65 +145,56 @@ def fetch_and_parse_detail(client: httpx.Client, opus_id: str, retries: int = 3)
 
     paragraphs = content_module.get("module_content", {}).get("paragraphs") or []
     results: List[Dict[str, Any]] = []
-    current_entry: Optional[Dict[str, Any]] = None
+
+    current_rank = None
+    current_song = ""
+    current_author = ""
+    current_prev_rank = ""
+    current_weeks = None
 
     for p in paragraphs:
-        text_obj = p.get("text")
-        pic_obj = p.get("pic")
+        ptype = p.get("para_type")
+        if ptype == 1:
+            text_nodes = p.get("text", {}).get("nodes", [])
+            txt = "".join(n.get("word", {}).get("words", "") for n in text_nodes if n.get("word")).strip()
 
-        if text_obj and text_obj.get("nodes"):
-            nodes = text_obj["nodes"]
-            full_text = "".join(
-                node.get("word", {}).get("words", "") for node in nodes if node.get("word")
-            )
-            rank_match = re.search(r"第\s*(\d+)\s*名", full_text)
+            rank_match = re.match(r"^第\s*(\d+)\s*位\s*(.*)$", txt)
             if rank_match:
-                rank = int(rank_match.group(1))
+                current_rank = int(rank_match.group(1))
+                song_author = rank_match.group(2).strip()
+                parts = song_author.split("/")
+                current_song = parts[0].strip() if parts[0] else song_author
+                current_author = parts[1].strip() if len(parts) > 1 else ""
 
-                # 寻找富文本链接节点
-                rich_node = None
-                for n in nodes:
-                    if n.get("type") == "TEXT_NODE_TYPE_RICH" and n.get("rich"):
-                        rich_node = n["rich"]
-                        break
+            stat_match = re.search(r"上周[：:]\s*([0-9—\-]+).*?在榜周数[：:]\s*(\d+)", txt)
+            if stat_match:
+                current_prev_rank = stat_match.group(1).strip()
+                current_weeks = int(stat_match.group(2))
 
-                song_title = ""
-                bvid = ""
-                jump_url = ""
+        elif ptype == 6 and current_rank is not None:
+            card = p.get("link_card", {}).get("card") or {}
+            oid = str(card.get("oid") or "")
+            results.append({
+                "rank": current_rank,
+                "title": current_song,
+                "author": current_author,
+                "prev_rank": current_prev_rank,
+                "weeks": current_weeks,
+                "aid": oid,
+                "bvid": "",
+                "url": f"https://www.bilibili.com/video/av{oid}" if oid else "",
+                "pic_url": "",
+            })
+            current_rank = None
 
-                if rich_node:
-                    song_title = rich_node.get("text", "").strip()
-                    jump_url = rich_node.get("jump_url", "").strip()
-                    bv_match = re.search(r"BV[0-9a-zA-Z]+", jump_url)
-                    if bv_match:
-                        bvid = bv_match.group(0)
-
-                # Fallback: 如果没有 rich 节点，从纯文本中切分歌名
-                if not song_title:
-                    clean_text = re.sub(r"第\s*\d+\s*名\s*[-–—:]*\s*", "", full_text).strip()
-                    song_title = clean_text
-
-                current_entry = {
-                    "rank": rank,
-                    "title": song_title,
-                    "bvid": bvid,
-                    "url": jump_url,
-                    "pic_url": "",
-                }
-                results.append(current_entry)
-
-        elif pic_obj and current_entry and not current_entry["pic_url"]:
-            pics = pic_obj.get("pics") or []
-            if pics:
-                current_entry["pic_url"] = pics[0].get("url", "")
-
+    results.sort(key=lambda x: x["rank"])
     return results, pub_time_str, pub_ts
 
 
-def fetch_video_metadata(client: httpx.Client, bvid: str) -> Optional[Dict[str, Any]]:
-    if not bvid:
-        return None
-    url = f"https://api.bilibili.com/x/web-interface/view?bvid={bvid}"
+def fetch_video_metadata_by_aid(client: httpx.Client, aid: str) -> Tuple[Optional[str], Optional[Dict[str, Any]]]:
+    if not aid:
+        return None, None
+    url = f"https://api.bilibili.com/x/web-interface/view?aid={aid}"
     try:
         resp = client.get(url, timeout=10.0)
         if resp.status_code == 200:
@@ -222,8 +203,10 @@ def fetch_video_metadata(client: httpx.Client, bvid: str) -> Optional[Dict[str, 
                 d = data["data"]
                 owner = d.get("owner") or {}
                 stat = d.get("stat") or {}
-                return {
+                bvid = d.get("bvid", "")
+                meta = {
                     "title": d.get("title", ""),
+                    "pic": d.get("pic", ""),
                     "duration": d.get("duration", 0),
                     "pubdate": d.get("pubdate", 0),
                     "uploader": {
@@ -241,9 +224,10 @@ def fetch_video_metadata(client: httpx.Client, bvid: str) -> Optional[Dict[str, 
                         "like": stat.get("like", 0),
                     },
                 }
+                return bvid, meta
     except Exception as e:
-        print(f"    [!] Error fetching video meta for {bvid}: {e}")
-    return None
+        print(f"    [!] Error fetching video meta for aid {aid}: {e}")
+    return None, None
 
 
 def save_json(file_path: Path, data: Any) -> None:
@@ -260,7 +244,7 @@ def load_json(file_path: Path) -> Any:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Billboard Data Crawler")
+    parser = argparse.ArgumentParser(description="Niconico Billboard Data Crawler")
     parser.add_argument("--all", action="store_true", help="Fetch all historical issues")
     parser.add_argument("--force", action="store_true", help="Force overwrite existing issue files")
     parser.add_argument("--incremental", action="store_true", help="Incremental check (default)")
@@ -270,44 +254,52 @@ def main():
 
     with get_client() as client:
         issue_list = fetch_opus_list(client, max_pages=max_pages)
+        issue_list.sort(key=lambda x: x["issue"], reverse=True)
 
-        # 过滤周榜与排序
-        weekly_issues = [it for it in issue_list if it["type"] == "weekly"]
-        weekly_issues.sort(key=lambda x: x["issue"], reverse=True)
-
-        if not weekly_issues:
-            print("[*] No weekly issues found.")
+        if not issue_list:
+            print("[*] No Niconico weekly issues found.")
             return
 
-        # 检查是否增量模式下最新一期已存在
-        latest_candidate = weekly_issues[0]["issue"]
-        latest_file = WEEKLY_DIR / f"{latest_candidate}.json"
+        latest_candidate = issue_list[0]["issue"]
+        latest_date = issue_list[0]["date"]
+        target_filename = f"issue_{latest_candidate}_{latest_date}.json"
+        latest_file = WEEKLY_DIR / target_filename
+
         if not args.all and not args.force and latest_file.exists():
-            print(f"[*] Incremental check: latest issue #{latest_candidate} already exists. Nothing to do!")
+            print(f"[*] Incremental check: latest Niconico issue #{latest_candidate} ({target_filename}) already exists. Nothing to do!")
             return
 
         new_or_updated = 0
 
-        for meta in weekly_issues:
+        for meta in issue_list:
             issue_num = meta["issue"]
             opus_id = meta["opus_id"]
-            target_file = WEEKLY_DIR / f"{issue_num}.json"
+            date_str = meta["date"]
+            fname = f"issue_{issue_num}_{date_str}.json"
+            target_file = WEEKLY_DIR / fname
 
             if target_file.exists() and not args.force:
                 continue
 
-            print(f"[*] Crawling issue {issue_num} (Opus ID: {opus_id})...")
+            print(f"[*] Crawling Niconico issue {issue_num} (Opus ID: {opus_id}, Date: {date_str})...")
             try:
                 items, pub_time_str, pub_ts = fetch_and_parse_detail(client, opus_id)
 
-                # 补充每首歌曲的详细视频元数据
                 for item in items:
-                    bvid = item.get("bvid")
-                    if bvid:
-                        item["video_meta"] = fetch_video_metadata(client, bvid)
-                        time.sleep(0.2)
+                    aid = str(item.get("aid") or "")
+                    if aid:
+                        bvid, vmeta = fetch_video_metadata_by_aid(client, aid)
+                        if bvid:
+                            item["bvid"] = bvid
+                            item["url"] = f"https://www.bilibili.com/video/{bvid}"
+                        if vmeta:
+                            item["video_meta"] = vmeta
+                            if not item["pic_url"] and vmeta.get("pic"):
+                                item["pic_url"] = vmeta["pic"]
+                        time.sleep(0.15)
 
                 detail_data = {
+                    "source": "niconico",
                     "issue": issue_num,
                     "type": meta["type"],
                     "opus_id": opus_id,
@@ -323,14 +315,14 @@ def main():
                     "items": items,
                 }
                 save_json(target_file, detail_data)
-                print(f"    Saved issue {issue_num} ({len(items)} songs, pub: {pub_time_str}) -> {target_file.name}")
+                print(f"    Saved Niconico issue {issue_num} ({len(items)} songs, pub: {pub_time_str}) -> {target_file.name}")
                 new_or_updated += 1
-                time.sleep(0.8)
+                time.sleep(0.5)
             except Exception as e:
                 print(f"[!] Error fetching issue {issue_num}: {e}")
 
-        # 合并所有已存在的 weekly 详情并更新 index.json
-        all_local_weekly_files = sorted(WEEKLY_DIR.glob("*.json"), key=lambda p: int(p.stem), reverse=True)
+        # 重建 niconico/index.json
+        all_local_weekly_files = list(WEEKLY_DIR.glob("issue_*.json"))
         final_index_issues = []
 
         for p in all_local_weekly_files:
@@ -349,14 +341,16 @@ def main():
                         "pub_ts": detail.get("pub_ts"),
                         "total_ranked": detail.get("total_ranked", len(detail.get("items", []))),
                         "source_url": detail.get("source_url"),
-                        "path": f"weekly/{detail.get('issue')}.json",
+                        "path": f"weekly/{p.name}",
                     })
             except Exception as e:
                 print(f"[!] Error reading {p}: {e}")
 
+        final_index_issues.sort(key=lambda x: x["issue"], reverse=True)
         latest_issue = final_index_issues[0]["issue"] if final_index_issues else None
 
         index_data = {
+            "source": "niconico",
             "updated_at": datetime.now(timezone.utc).isoformat(),
             "latest_issue": latest_issue,
             "total_issues": len(final_index_issues),
@@ -364,7 +358,7 @@ def main():
         }
 
         save_json(INDEX_FILE, index_data)
-        print(f"[*] Updated index.json! Latest: #{latest_issue}, Total: {len(final_index_issues)} issues. New/Updated: {new_or_updated}")
+        print(f"[*] Updated niconico/index.json! Latest: #{latest_issue}, Total: {len(final_index_issues)} issues. New/Updated: {new_or_updated}")
 
 
 if __name__ == "__main__":
