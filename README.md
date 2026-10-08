@@ -3,8 +3,8 @@
 📊 Bili & Nico 术力口双周榜公开专栏数据归档 🎵 GitHub Actions 自动巡检 ⚡ 开放静态数据源与 CDN API 接口 ✨
 
 收录以下公开周榜专栏的结构化数据源：
-1. **Bili Board 本地周榜**：Bilibili UP 主 **Bili-Board_Atel**（UID: [3546800279522160](https://space.bilibili.com/3546800279522160/upload/opus)）每周三晚发布的《Bili Board 术力口周榜》。
-2. **Niconico 日本周榜**：Bilibili UP 主 **Elvansphere**（UID: [12446725](https://space.bilibili.com/12446725/upload/opus)）每周三发布的《ニコニコ VOCALOID SONGS TOP20》搬运与评析专栏。
+1. **Bili Board 本地周榜**：Bilibili UP 主 **Bili-Board_Atel**（UID: [3546800279522160](https://space.bilibili.com/3546800279522160/upload/opus)）每周三晚发布的《Bili Board 术力口周榜》（专栏标题示例：`Bili_Board术力口周榜第122期2026年10月7日第40周`）。
+2. **Niconico 日本周榜**：Bilibili UP 主 **Elvansphere**（UID: [12446725](https://space.bilibili.com/12446725/upload/opus)）每周三归档发布的《ニコニコ VOCALOID SONGS TOP20》搬运与评析专栏（专栏标题示例：`【2026/10/07】ニコニコ VOCALOID SONGS TOP20`，由 Billboard JAPAN 与 ニコニコ 官方合作出品）。
 
 ---
 
