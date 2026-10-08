@@ -1,33 +1,45 @@
 # billboard-data
 
-《Bili Board 术力口周榜》（VOCALOID / 虚拟歌手周榜）公开结构化数据源。
+📊 Bili & Nico 术力口双周榜公开专栏数据归档 🎵 GitHub Actions 自动巡检 ⚡ 开放静态数据源与 CDN API 接口 ✨
 
-数据来源：Bilibili UP 主 **Bili Board Atel**（UID: [3546800279522160](https://space.bilibili.com/3546800279522160/upload/opus)）每周发布的周榜专栏。
+收录以下公开周榜专栏的结构化数据源：
+1. **Bili Board 本地周榜**：Bilibili UP 主 **Bili Board Atel**（UID: [3546800279522160](https://space.bilibili.com/3546800279522160/upload/opus)）每周三晚发布的《Bili Board 术力口周榜》。
+2. **Niconico 日本周榜**：Bilibili UP 主 **VOCALOID_SONGS**（UID: [12446725](https://space.bilibili.com/12446725/upload/opus)）每周三发布的《ニコニコ VOCALOID SONGS TOP20》搬运与评析专栏。
 
 ---
 
-## 📅 更新频率与调度
+## 📅 更新频率与 GitHub Actions 调度
 
-- 周榜通常于 **每周三晚上 18:00** 准时发布。
-- 本仓库通过 GitHub Actions 于 **每周三 18:05**（及 18:35 兜底）自动运行增量爬虫检测并归档新数据。
+- **Bili Board 周榜**：通常于 **每周三晚上 18:00** 准时发布。GitHub Actions 于 **每周三 18:05**（及 18:35 兜底）自动检测并归档新数据。
+- **Niconico 周榜**：通常于 **每周三傍晚至晚间（19:00~20:30）** 不定时发布。GitHub Actions 于 **每周三 19:00 ~ 20:30** 每隔 10 分钟自动轮询巡检并归档新数据。
 
 ---
 
 ## 🌐 免费公共 CDN 调用方式
 
-任何前端网页、小程序、桌面应用、机器人应用 （如 koishi插件、 nonebot插件、astrbot插件等） 等，均可直接免鉴权调用本仓库数据：
+任何前端网页、小程序、桌面应用、机器人应用（如 Koishi 插件、NoneBot 插件、AstrBot 插件等），均可直接免鉴权调用本仓库数据：
 
 ### 1. 全局索引文件（推荐首选拉取）
-包含所有已收录的期数列表、最新一期编号及更新时间：
-```text
-https://cdn.jsdelivr.net/gh/VincentZyu233/billboard-data@main/data/index.json
-```
+包含对应数据源已收录的期数列表、最新一期编号及更新时间：
+- **Bili Board 索引**：
+  ```text
+  https://cdn.jsdelivr.net/gh/VincentZyu233/billboard-data@main/data/bilibili/index.json
+  ```
+- **Niconico 索引**：
+  ```text
+  https://cdn.jsdelivr.net/gh/VincentZyu233/billboard-data@main/data/niconico/index.json
+  ```
 
 ### 2. 单期详细数据文件
-获取指定期号（如第 122 期）的排名清单（1 ~ 20 名）：
-```text
-https://cdn.jsdelivr.net/gh/VincentZyu233/billboard-data@main/data/weekly/122.json
-```
+获取指定期号的详细排名清单（TOP 20）：
+- **Bili Board 单期数据**（示例：第 122 期）：
+  ```text
+  https://cdn.jsdelivr.net/gh/VincentZyu233/billboard-data@main/data/bilibili/weekly/issue_122_2026-10-07.json
+  ```
+- **Niconico 单期数据**（示例：第 188 期）：
+  ```text
+  https://cdn.jsdelivr.net/gh/VincentZyu233/billboard-data@main/data/niconico/weekly/issue_188_2026-10-07.json
+  ```
 
 ---
 
@@ -92,12 +104,13 @@ https://cdn.jsdelivr.net/gh/VincentZyu233/billboard-data@main/data/weekly/122.js
 使用现代 Python 包管理器 `uv`：
 
 ```bash
-# 增量检查并更新
-uv run scripts/crawler.py --incremental
+# B站周榜爬虫（增量 / 全量 / 强制刷新）
+uv run scripts/crawler_bilibili.py --incremental
+uv run scripts/crawler_bilibili.py --all
+uv run scripts/crawler_bilibili.py --all --force
 
-# 全量回溯历史期数
-uv run scripts/crawler.py --all
-
-# 强制覆盖刷新本地所有已存期数
-uv run scripts/crawler.py --all --force
+# N站周榜爬虫（增量 / 全量 / 强制刷新）
+uv run scripts/crawler_niconico.py --incremental
+uv run scripts/crawler_niconico.py --all
+uv run scripts/crawler_niconico.py --all --force
 ```
