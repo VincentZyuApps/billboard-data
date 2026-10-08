@@ -15,42 +15,156 @@
       "title": "视奸",
       "bvid": "BV1qDUPYKEzf",
       "url": "https://www.bilibili.com/video/BV1qDUPYKEzf",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/bdca14596e10e2d3215724e388a1b1323546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/bdca14596e10e2d3215724e388a1b1323546800279522160.jpg",
+      "video_meta": {
+        "title": "DECO*27 - モニタリング feat. 初音ミク",
+        "duration": 182,
+        "pubdate": 1732269600,
+        "uploader": {
+          "mid": 177291194,
+          "name": "DECO27_Official",
+          "face": "https://i2.hdslb.com/bfs/face/59622e1e73df45178cc16cb53b694cd770912edd.jpg"
+        },
+        "stat": {
+          "view": 29094781,
+          "danmaku": 204762,
+          "reply": 91953,
+          "favorite": 945067,
+          "coin": 611111,
+          "share": 217665,
+          "like": 1125143
+        }
+      }
     },
     {
       "rank": 19,
       "title": "不要听那姓T的话",
       "bvid": "BV1SfK9zPEL3",
       "url": "https://www.bilibili.com/video/BV1SfK9zPEL3",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/9a7bf79dacdea438393c35a77d6ba3fd3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/9a7bf79dacdea438393c35a77d6ba3fd3546800279522160.jpg",
+      "video_meta": {
+        "title": "ピノキオピー - T氏の話を信じるな feat. 初音ミク・重音テト",
+        "duration": 164,
+        "pubdate": 1751018400,
+        "uploader": {
+          "mid": 203655966,
+          "name": "ピノキオピー_official",
+          "face": "https://i0.hdslb.com/bfs/face/ada46abe245f03fc216acf1585b3f1e31991b7f9.jpg"
+        },
+        "stat": {
+          "view": 21205121,
+          "danmaku": 217883,
+          "reply": 56237,
+          "favorite": 725628,
+          "coin": 320418,
+          "share": 92549,
+          "like": 892671
+        }
+      }
     },
     {
       "rank": 18,
       "title": "急性恋爱中毒",
       "bvid": "BV1QCXgBEEid",
       "url": "https://www.bilibili.com/video/BV1QCXgBEEid",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/0fef64c2cf4d365d42858a871b8f642b3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/0fef64c2cf4d365d42858a871b8f642b3546800279522160.jpg",
+      "video_meta": {
+        "title": "［官方投稿］急性恋愛中毒 ft.重音テト",
+        "duration": 190,
+        "pubdate": 1774663920,
+        "uploader": {
+          "mid": 3706954771860305,
+          "name": "花生p_official",
+          "face": "https://i2.hdslb.com/bfs/face/6b8fa8f63bbeea7779aab2530c7961c20f5cd7fd.jpg"
+        },
+        "stat": {
+          "view": 5721978,
+          "danmaku": 28690,
+          "reply": 14251,
+          "favorite": 251019,
+          "coin": 87351,
+          "share": 15826,
+          "like": 333592
+        }
+      }
     },
     {
       "rank": 17,
       "title": "无尽敌意",
       "bvid": "BV14K7B6eEXa",
       "url": "https://www.bilibili.com/video/BV14K7B6eEXa",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/f29d0010f0262b950098f741e1e374af3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/f29d0010f0262b950098f741e1e374af3546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】4nim0sity|99.999999999%| / yuki flower",
+        "duration": 217,
+        "pubdate": 1782471600,
+        "uploader": {
+          "mid": 3707018525280623,
+          "name": "ichi_oneone",
+          "face": "https://i2.hdslb.com/bfs/face/5b058016e60235ebf89069ed7ef23805d41c7bac.jpg"
+        },
+        "stat": {
+          "view": 2054967,
+          "danmaku": 17462,
+          "reply": 7981,
+          "favorite": 159552,
+          "coin": 78785,
+          "share": 12063,
+          "like": 304047
+        }
+      }
     },
     {
       "rank": 16,
       "title": "女忍者改造人",
       "bvid": "BV1KY7t6KE83",
       "url": "https://www.bilibili.com/video/BV1KY7t6KE83",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/7a5813c225ed714d50e1579e2e004b0b3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/7a5813c225ed714d50e1579e2e004b0b3546800279522160.jpg",
+      "video_meta": {
+        "title": "女忍者改造人 / 镜音铃",
+        "duration": 201,
+        "pubdate": 1782385200,
+        "uploader": {
+          "mid": 3546750149200181,
+          "name": "謎J_official",
+          "face": "https://i2.hdslb.com/bfs/face/ae785e6c988088a1fc1dd6206d6542713b7cd1f9.jpg"
+        },
+        "stat": {
+          "view": 4324308,
+          "danmaku": 29908,
+          "reply": 15961,
+          "favorite": 205537,
+          "coin": 87797,
+          "share": 19112,
+          "like": 342371
+        }
+      }
     },
     {
       "rank": 15,
       "title": "呀啦啦啦",
       "bvid": "BV1NPGd6wE4g",
       "url": "https://www.bilibili.com/video/BV1NPGd6wE4g",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/180b9a8a58b1afa014576c9c921fc6083546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/180b9a8a58b1afa014576c9c921fc6083546800279522160.jpg",
+      "video_meta": {
+        "title": "【中译版】[MV] ABM - '[呀啦啦啦]ヤラララ' (YARARARA) feat. 重音テト",
+        "duration": 157,
+        "pubdate": 1779703554,
+        "uploader": {
+          "mid": 2705870,
+          "name": "苏维埃冰棺中的伊利亚",
+          "face": "https://i2.hdslb.com/bfs/face/2a779f34ff2a889d56d215eccd1764a9537dd667.jpg"
+        },
+        "stat": {
+          "view": 5079879,
+          "danmaku": 23011,
+          "reply": 7539,
+          "favorite": 227880,
+          "coin": 38260,
+          "share": 32454,
+          "like": 233268
+        }
+      }
     },
     {
       "rank": 14,
@@ -64,91 +178,338 @@
       "title": "超级感染",
       "bvid": "BV1fpN26rENQ",
       "url": "https://www.bilibili.com/video/BV1fpN26rENQ",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/c8e444bf98de8189e28f513e48d966243546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/c8e444bf98de8189e28f513e48d966243546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】ハイパーインフェクション / miru feat.初音ミク",
+        "duration": 150,
+        "pubdate": 1784026800,
+        "uploader": {
+          "mid": 1699290467,
+          "name": "miru_official",
+          "face": "https://i2.hdslb.com/bfs/face/d35a41c907dacb5869df0084f4e341c6a66e91e2.jpg"
+        },
+        "stat": {
+          "view": 243663,
+          "danmaku": 2423,
+          "reply": 1839,
+          "favorite": 29914,
+          "coin": 4778,
+          "share": 1299,
+          "like": 68969
+        }
+      }
     },
     {
       "rank": 12,
       "title": "牙印为爱",
       "bvid": "BV1x3M566Ewm",
       "url": "https://www.bilibili.com/video/BV1x3M566Ewm",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/97626357c73810ef7f4a9b0bfbe4c7363546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/97626357c73810ef7f4a9b0bfbe4c7363546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】Mayonazy - Teeth Mark Love (牙印为爱) feat. GUMI",
+        "duration": 197,
+        "pubdate": 1783674000,
+        "uploader": {
+          "mid": 3706954855745913,
+          "name": "Mayonazy",
+          "face": "https://i0.hdslb.com/bfs/face/11d230d59a272343038385c00469bfe043968421.jpg"
+        },
+        "stat": {
+          "view": 931063,
+          "danmaku": 2356,
+          "reply": 2652,
+          "favorite": 62404,
+          "coin": 13762,
+          "share": 4424,
+          "like": 83975
+        }
+      }
     },
     {
       "rank": 11,
       "title": "求与影",
       "bvid": "BV1Kc9HB6EoQ",
       "url": "https://www.bilibili.com/video/BV1Kc9HB6EoQ",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/42b6683fe7917864a3c8b30fe5810fcb3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/42b6683fe7917864a3c8b30fe5810fcb3546800279522160.jpg",
+      "video_meta": {
+        "title": "［官方投稿］求＆影　ft.重音テト",
+        "duration": 238,
+        "pubdate": 1775061176,
+        "uploader": {
+          "mid": 3706954771860305,
+          "name": "花生p_official",
+          "face": "https://i2.hdslb.com/bfs/face/6b8fa8f63bbeea7779aab2530c7961c20f5cd7fd.jpg"
+        },
+        "stat": {
+          "view": 10251156,
+          "danmaku": 185596,
+          "reply": 157347,
+          "favorite": 360472,
+          "coin": 166479,
+          "share": 30874,
+          "like": 535028
+        }
+      }
     },
     {
       "rank": 10,
       "title": "超级主角",
       "bvid": "BV1nvKnewEcU",
       "url": "https://www.bilibili.com/video/BV1nvKnewEcU",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/0e61d3c1305827460728bf3bbf7c13f23546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/0e61d3c1305827460728bf3bbf7c13f23546800279522160.jpg",
+      "video_meta": {
+        "title": "ピノキオピー - 超主人公 feat. 初音ミク",
+        "duration": 181,
+        "pubdate": 1739527200,
+        "uploader": {
+          "mid": 203655966,
+          "name": "ピノキオピー_official",
+          "face": "https://i0.hdslb.com/bfs/face/ada46abe245f03fc216acf1585b3f1e31991b7f9.jpg"
+        },
+        "stat": {
+          "view": 14964477,
+          "danmaku": 73528,
+          "reply": 39027,
+          "favorite": 439078,
+          "coin": 179329,
+          "share": 58593,
+          "like": 524027
+        }
+      }
     },
     {
       "rank": 9,
       "title": "处刑鼓掌",
       "bvid": "BV1dyoDBCEWU",
       "url": "https://www.bilibili.com/video/BV1dyoDBCEWU",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/6c007c4dd3c69d6b826298a09959930b3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/6c007c4dd3c69d6b826298a09959930b3546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】处刑鼓掌 / Kasane teto",
+        "duration": 192,
+        "pubdate": 1777094112,
+        "uploader": {
+          "mid": 3706974501866453,
+          "name": "TRAP_CHICK",
+          "face": "https://i2.hdslb.com/bfs/face/c952ccc6474b185440e6c7e059e8ac98614c45a1.jpg"
+        },
+        "stat": {
+          "view": 10290185,
+          "danmaku": 64688,
+          "reply": 26490,
+          "favorite": 353452,
+          "coin": 140359,
+          "share": 33117,
+          "like": 483303
+        }
+      }
     },
     {
       "rank": 8,
       "title": "像个笨蛋一样",
       "bvid": "BV1z7gPzXEzJ",
       "url": "https://www.bilibili.com/video/BV1z7gPzXEzJ",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/26aa5ff721df00521af75f37724b38f23546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/26aa5ff721df00521af75f37724b38f23546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家】バカみたいに - 初音ミク【カササギ】",
+        "duration": 131,
+        "pubdate": 1752757960,
+        "uploader": {
+          "mid": 3546934367226632,
+          "name": "カササギ_柿崎ユウタ",
+          "face": "https://i2.hdslb.com/bfs/face/cae6c00b0c71df17853ee61506bed7e596dff7e7.jpg"
+        },
+        "stat": {
+          "view": 10446509,
+          "danmaku": 43086,
+          "reply": 28164,
+          "favorite": 520652,
+          "coin": 193523,
+          "share": 54790,
+          "like": 468587
+        }
+      }
     },
     {
       "rank": 7,
       "title": "驱车疾行，溺坠而亡",
       "bvid": "BV1nkKG69EgE",
       "url": "https://www.bilibili.com/video/BV1nkKG69EgE",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/98661407f8d6ca2378283c40c46076ab3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/98661407f8d6ca2378283c40c46076ab3546800279522160.jpg",
+      "video_meta": {
+        "title": "ドライビングライディングダイビングダイ / 初音ミク",
+        "duration": 136,
+        "pubdate": 1784193828,
+        "uploader": {
+          "mid": 3546826265332333,
+          "name": "佐藤ちなみに",
+          "face": "https://i1.hdslb.com/bfs/face/02bb4228eb1398feded15e5af1b2bc75698fcdd2.jpg"
+        },
+        "stat": {
+          "view": 1415122,
+          "danmaku": 3101,
+          "reply": 3240,
+          "favorite": 64975,
+          "coin": 10571,
+          "share": 1897,
+          "like": 80670
+        }
+      }
     },
     {
       "rank": 6,
       "title": "轻轻解开",
       "bvid": "BV1JQK56xETf",
       "url": "https://www.bilibili.com/video/BV1JQK56xETf",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/b6047f4cf561c14f6e629f3f73e593fd3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/b6047f4cf561c14f6e629f3f73e593fd3546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】柔く、ほどいて(轻轻解开) / MIMI feat. 初音ミク＆ 重音テトSV【Official Video】",
+        "duration": 155,
+        "pubdate": 1784204092,
+        "uploader": {
+          "mid": 3632315527858571,
+          "name": "MIMI_music",
+          "face": "https://i2.hdslb.com/bfs/face/a1edf04505ccef5cdd2844a3256aa09b832ab157.jpg"
+        },
+        "stat": {
+          "view": 564234,
+          "danmaku": 2716,
+          "reply": 2860,
+          "favorite": 59528,
+          "coin": 21753,
+          "share": 5296,
+          "like": 107260
+        }
+      }
     },
     {
       "rank": 5,
       "title": "麻麻木木",
       "bvid": "BV1SKLD6NEdC",
       "url": "https://www.bilibili.com/video/BV1SKLD6NEdC",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/93f2d36a83b40e7c7b6bde6b600760743546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/93f2d36a83b40e7c7b6bde6b600760743546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】 TAK - 'numb numb' feat. Hatsune Miku, Kasane Teto",
+        "duration": 176,
+        "pubdate": 1781675534,
+        "uploader": {
+          "mid": 626993113,
+          "name": "TAK_DRDR",
+          "face": "https://i1.hdslb.com/bfs/face/aeeef78b35e5497018e91521bd4ab50f88051790.jpg"
+        },
+        "stat": {
+          "view": 6542824,
+          "danmaku": 64629,
+          "reply": 13667,
+          "favorite": 512919,
+          "coin": 265570,
+          "share": 50725,
+          "like": 724400
+        }
+      }
     },
     {
       "rank": 4,
       "title": "请批准吧灯神先生!",
       "bvid": "BV1GzV36pE5h",
       "url": "https://www.bilibili.com/video/BV1GzV36pE5h",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/54d382e7dac01147d572a7569ff611e73546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/54d382e7dac01147d572a7569ff611e73546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】请批准吧灯神先生! / 重音テト・音街ウナ",
+        "duration": 163,
+        "pubdate": 1780136128,
+        "uploader": {
+          "mid": 3706974501866453,
+          "name": "TRAP_CHICK",
+          "face": "https://i2.hdslb.com/bfs/face/c952ccc6474b185440e6c7e059e8ac98614c45a1.jpg"
+        },
+        "stat": {
+          "view": 16041478,
+          "danmaku": 73562,
+          "reply": 30598,
+          "favorite": 644896,
+          "coin": 215757,
+          "share": 48424,
+          "like": 755823
+        }
+      }
     },
     {
       "rank": 3,
       "title": "重启重塑",
       "bvid": "BV1rXKr6zEBX",
       "url": "https://www.bilibili.com/video/BV1rXKr6zEBX",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/00e8c4337e0da93592087feedbbffb033546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/00e8c4337e0da93592087feedbbffb033546800279522160.jpg",
+      "video_meta": {
+        "title": "〖本家投稿〗d0tc0mmie - Restart Refine feat GUMI",
+        "duration": 96,
+        "pubdate": 1784505600,
+        "uploader": {
+          "mid": 3546729546778833,
+          "name": "d0tc0mmie",
+          "face": "https://i0.hdslb.com/bfs/face/2bf419a8fd2d46cf1be84c08ca1be147adbb0815.jpg"
+        },
+        "stat": {
+          "view": 1878927,
+          "danmaku": 8361,
+          "reply": 12291,
+          "favorite": 89306,
+          "coin": 45978,
+          "share": 10863,
+          "like": 180927
+        }
+      }
     },
     {
       "rank": 2,
       "title": "好想听你说月色真美！",
       "bvid": "BV15HFVz1EvM",
       "url": "https://www.bilibili.com/video/BV15HFVz1EvM",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/bbd54be9f383b093e41e840bfd82bedd3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/bbd54be9f383b093e41e840bfd82bedd3546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家】月が綺麗ねと言われたい！ - 初音ミク【カササギ】",
+        "duration": 147,
+        "pubdate": 1770120000,
+        "uploader": {
+          "mid": 3546934367226632,
+          "name": "カササギ_柿崎ユウタ",
+          "face": "https://i2.hdslb.com/bfs/face/cae6c00b0c71df17853ee61506bed7e596dff7e7.jpg"
+        },
+        "stat": {
+          "view": 13695631,
+          "danmaku": 125347,
+          "reply": 88636,
+          "favorite": 657542,
+          "coin": 331532,
+          "share": 101885,
+          "like": 751348
+        }
+      }
     },
     {
       "rank": 1,
       "title": "空壳恋爱",
       "bvid": "BV1RENQ6SEsS",
       "url": "https://www.bilibili.com/video/BV1RENQ6SEsS",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/347a3b76ab52776eda0d3afbf4ee7d203546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/347a3b76ab52776eda0d3afbf4ee7d203546800279522160.jpg",
+      "video_meta": {
+        "title": "DECO*27 - Dummy Romance feat. Hatsune Miku",
+        "duration": 163,
+        "pubdate": 1784282400,
+        "uploader": {
+          "mid": 177291194,
+          "name": "DECO27_Official",
+          "face": "https://i2.hdslb.com/bfs/face/59622e1e73df45178cc16cb53b694cd770912edd.jpg"
+        },
+        "stat": {
+          "view": 2341742,
+          "danmaku": 26348,
+          "reply": 18475,
+          "favorite": 124164,
+          "coin": 98274,
+          "share": 29027,
+          "like": 267268
+        }
+      }
     }
   ],
   "pub_time_str": "编辑于 2026年08月08日 21:35",

@@ -15,140 +15,520 @@
       "title": "敌人",
       "bvid": "BV1UGa961Ejt",
       "url": "https://www.bilibili.com/video/BV1UGa961Ejt",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/812a518225581ae3f357c4c8ab9053f43546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/812a518225581ae3f357c4c8ab9053f43546800279522160.jpg",
+      "video_meta": {
+        "title": "ピノキオピー - えねみぃ feat. 初音ミク・重音テト",
+        "duration": 181,
+        "pubdate": 1790935200,
+        "uploader": {
+          "mid": 203655966,
+          "name": "ピノキオピー_official",
+          "face": "https://i0.hdslb.com/bfs/face/ada46abe245f03fc216acf1585b3f1e31991b7f9.jpg"
+        },
+        "stat": {
+          "view": 2744636,
+          "danmaku": 51078,
+          "reply": 40559,
+          "favorite": 129719,
+          "coin": 110333,
+          "share": 29629,
+          "like": 300348
+        }
+      }
     },
     {
       "rank": 2,
       "title": "展示中毒",
       "bvid": "BV1y6hq6bEv9",
       "url": "https://www.bilibili.com/video/BV1y6hq6bEv9",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/35ed9d8306ec7caebe7cbc47f11601173546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/35ed9d8306ec7caebe7cbc47f11601173546800279522160.jpg",
+      "video_meta": {
+        "title": "[本家投稿] ABM - '展示中毒' (Displayholic) feat. 初音ミク",
+        "duration": 143,
+        "pubdate": 1790586000,
+        "uploader": {
+          "mid": 3546589775792515,
+          "name": "Anythingbecomemo",
+          "face": "https://i1.hdslb.com/bfs/face/e4b6f4c96b79515948f951c259b229608fcc10db.jpg"
+        },
+        "stat": {
+          "view": 1145113,
+          "danmaku": 5472,
+          "reply": 7129,
+          "favorite": 61151,
+          "coin": 25158,
+          "share": 4711,
+          "like": 89779
+        }
+      }
     },
     {
       "rank": 3,
       "title": "困于盛夏",
       "bvid": "BV1HKhU6pEnX",
       "url": "https://www.bilibili.com/video/BV1HKhU6pEnX",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/e3618514f8a98684606dcabe6bb530ce3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/e3618514f8a98684606dcabe6bb530ce3546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】Lostinsummer (困于盛夏) feat. Kasane Teto",
+        "duration": 147,
+        "pubdate": 1790350100,
+        "uploader": {
+          "mid": 3707044890675834,
+          "name": "Yowane_P",
+          "face": "https://i0.hdslb.com/bfs/face/007ad2867d6ff27c71b48398f3fd765e04ecbdc2.jpg"
+        },
+        "stat": {
+          "view": 457241,
+          "danmaku": 1960,
+          "reply": 1643,
+          "favorite": 64289,
+          "coin": 20182,
+          "share": 3842,
+          "like": 73008
+        }
+      }
     },
     {
       "rank": 4,
       "title": "啾啾吸干",
       "bvid": "BV1T8hy6JE2k",
       "url": "https://www.bilibili.com/video/BV1T8hy6JE2k",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/9ecaea9e2debc8cc6a6f6604410a365d3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/9ecaea9e2debc8cc6a6f6604410a365d3546800279522160.jpg",
+      "video_meta": {
+        "title": "【官方投稿】啾啾吸干 (CHU-CHU DRAIN) feat.奕夕 / Yi Xi【绝区零】",
+        "duration": 129,
+        "pubdate": 1790334000,
+        "uploader": {
+          "mid": 3706963953191779,
+          "name": "Chenomio",
+          "face": "https://i1.hdslb.com/bfs/face/8b9f7955164c0258285293701b64bde9959cef54.jpg"
+        },
+        "stat": {
+          "view": 850969,
+          "danmaku": 2616,
+          "reply": 3319,
+          "favorite": 56012,
+          "coin": 25393,
+          "share": 6430,
+          "like": 102065
+        }
+      }
     },
     {
       "rank": 5,
       "title": "信仰的制作方法",
       "bvid": "BV1dfh26TEw8",
       "url": "https://www.bilibili.com/video/BV1dfh26TEw8",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/e925e46dc28da602b56a3d8e8f0281fe3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/e925e46dc28da602b56a3d8e8f0281fe3546800279522160.jpg",
+      "video_meta": {
+        "title": "【中文字幕】信仰的制作方法/信仰の作り方 重音テトSV【佐倉流星】",
+        "duration": 168,
+        "pubdate": 1790332758,
+        "uploader": {
+          "mid": 483620385,
+          "name": "一个无聊的念",
+          "face": "https://i0.hdslb.com/bfs/face/2710ad3dd4fd5c36aca697c7a8f1de408797c78f.jpg"
+        },
+        "stat": {
+          "view": 616474,
+          "danmaku": 2383,
+          "reply": 1115,
+          "favorite": 28976,
+          "coin": 3627,
+          "share": 780,
+          "like": 24090
+        }
+      }
     },
     {
       "rank": 6,
       "title": "好想听你说月色真美！",
       "bvid": "BV15HFVz1EvM",
       "url": "https://www.bilibili.com/video/BV15HFVz1EvM",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/56d0328342b2e1b37292d7bebb0a502c3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/56d0328342b2e1b37292d7bebb0a502c3546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家】月が綺麗ねと言われたい！ - 初音ミク【カササギ】",
+        "duration": 147,
+        "pubdate": 1770120000,
+        "uploader": {
+          "mid": 3546934367226632,
+          "name": "カササギ_柿崎ユウタ",
+          "face": "https://i2.hdslb.com/bfs/face/cae6c00b0c71df17853ee61506bed7e596dff7e7.jpg"
+        },
+        "stat": {
+          "view": 13695631,
+          "danmaku": 125347,
+          "reply": 88636,
+          "favorite": 657542,
+          "coin": 331532,
+          "share": 101885,
+          "like": 751348
+        }
+      }
     },
     {
       "rank": 7,
       "title": "求与影",
       "bvid": "BV1Kc9HB6EoQ",
       "url": "https://www.bilibili.com/video/BV1Kc9HB6EoQ",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/4fd315feb5f0b82b158a4d595e67dcd03546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/4fd315feb5f0b82b158a4d595e67dcd03546800279522160.jpg",
+      "video_meta": {
+        "title": "［官方投稿］求＆影　ft.重音テト",
+        "duration": 238,
+        "pubdate": 1775061176,
+        "uploader": {
+          "mid": 3706954771860305,
+          "name": "花生p_official",
+          "face": "https://i2.hdslb.com/bfs/face/6b8fa8f63bbeea7779aab2530c7961c20f5cd7fd.jpg"
+        },
+        "stat": {
+          "view": 10251156,
+          "danmaku": 185596,
+          "reply": 157347,
+          "favorite": 360472,
+          "coin": 166479,
+          "share": 30874,
+          "like": 535028
+        }
+      }
     },
     {
       "rank": 8,
       "title": "驱魔",
       "bvid": "BV1Vo3C6VEY5",
       "url": "https://www.bilibili.com/video/BV1Vo3C6VEY5",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/7c2df69af855fdf174f0a81bb98eaca53546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/7c2df69af855fdf174f0a81bb98eaca53546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】驱魔 feat. 雨衣, Gemini, 初音未来",
+        "duration": 147,
+        "pubdate": 1785492000,
+        "uploader": {
+          "mid": 3707019290741393,
+          "name": "我的VOCALOID有点奇怪",
+          "face": "https://i2.hdslb.com/bfs/face/0bb003904da76ec5f90f15c5c32792b3cf3dd2a8.jpg"
+        },
+        "stat": {
+          "view": 3264049,
+          "danmaku": 20903,
+          "reply": 10178,
+          "favorite": 121485,
+          "coin": 49806,
+          "share": 11621,
+          "like": 144981
+        }
+      }
     },
     {
       "rank": 9,
       "title": "碎片化透支",
       "bvid": "BV1UheG6uE1e",
       "url": "https://www.bilibili.com/video/BV1UheG6uE1e",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/f9799910142c4f8bfe6eb348bd9321763546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/f9799910142c4f8bfe6eb348bd9321763546800279522160.jpg",
+      "video_meta": {
+        "title": "【Avogado6自投稿】Debit Bit/Calogado",
+        "duration": 144,
+        "pubdate": 1789641283,
+        "uploader": {
+          "mid": 1757463037,
+          "name": "Avogado6",
+          "face": "https://i1.hdslb.com/bfs/face/d0e0c442c44881d0a153ff83f7c18c4f7656fbf9.jpg"
+        },
+        "stat": {
+          "view": 797898,
+          "danmaku": 1671,
+          "reply": 2326,
+          "favorite": 59600,
+          "coin": 33942,
+          "share": 5481,
+          "like": 110610
+        }
+      }
     },
     {
       "rank": 10,
       "title": "缚",
       "bvid": "BV1QGbN66ERu",
       "url": "https://www.bilibili.com/video/BV1QGbN66ERu",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/8f28ea31a95bddb9007d4d169b09f97f3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/8f28ea31a95bddb9007d4d169b09f97f3546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】でんの子P - 縛【中文字幕】",
+        "duration": 88,
+        "pubdate": 1789124400,
+        "uploader": {
+          "mid": 3707050714466552,
+          "name": "dennoko-P",
+          "face": "https://i2.hdslb.com/bfs/face/6b47502866f2e5f60366ace1917af5598b1dd79a.jpg"
+        },
+        "stat": {
+          "view": 922424,
+          "danmaku": 492,
+          "reply": 903,
+          "favorite": 62417,
+          "coin": 13176,
+          "share": 2896,
+          "like": 106874
+        }
+      }
     },
     {
       "rank": 11,
       "title": "像个笨蛋一样",
       "bvid": "BV1z7gPzXEzJ",
       "url": "https://www.bilibili.com/video/BV1z7gPzXEzJ",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/2824a1ceb2d5857615c22f49fe7d00163546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/2824a1ceb2d5857615c22f49fe7d00163546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家】バカみたいに - 初音ミク【カササギ】",
+        "duration": 131,
+        "pubdate": 1752757960,
+        "uploader": {
+          "mid": 3546934367226632,
+          "name": "カササギ_柿崎ユウタ",
+          "face": "https://i2.hdslb.com/bfs/face/cae6c00b0c71df17853ee61506bed7e596dff7e7.jpg"
+        },
+        "stat": {
+          "view": 10446509,
+          "danmaku": 43086,
+          "reply": 28164,
+          "favorite": 520652,
+          "coin": 193523,
+          "share": 54790,
+          "like": 468587
+        }
+      }
     },
     {
       "rank": 12,
       "title": "恋尸癖",
       "bvid": "BV1UZad6XEK1",
       "url": "https://www.bilibili.com/video/BV1UZad6XEK1",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/859e476f6c3193859a6ee78d76a403603546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/859e476f6c3193859a6ee78d76a403603546800279522160.jpg",
+      "video_meta": {
+        "title": "【官方投稿】ghoul (死体泥棒・盗尸者) / 初音ミク",
+        "duration": 181,
+        "pubdate": 1790739030,
+        "uploader": {
+          "mid": 3493258726476187,
+          "name": "あいうち_aiuchi",
+          "face": "https://i1.hdslb.com/bfs/face/38a04410744424915a6cec72fc2726e0825b1d76.jpg"
+        },
+        "stat": {
+          "view": 115098,
+          "danmaku": 224,
+          "reply": 631,
+          "favorite": 15362,
+          "coin": 5064,
+          "share": 1178,
+          "like": 19569
+        }
+      }
     },
     {
       "rank": 13,
       "title": "处刑鼓掌",
       "bvid": "BV1dyoDBCEWU",
       "url": "https://www.bilibili.com/video/BV1dyoDBCEWU",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/b511347cb602501b53e0a325c9fae1863546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/b511347cb602501b53e0a325c9fae1863546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】处刑鼓掌 / Kasane teto",
+        "duration": 192,
+        "pubdate": 1777094112,
+        "uploader": {
+          "mid": 3706974501866453,
+          "name": "TRAP_CHICK",
+          "face": "https://i2.hdslb.com/bfs/face/c952ccc6474b185440e6c7e059e8ac98614c45a1.jpg"
+        },
+        "stat": {
+          "view": 10290185,
+          "danmaku": 64688,
+          "reply": 26490,
+          "favorite": 353452,
+          "coin": 140359,
+          "share": 33117,
+          "like": 483303
+        }
+      }
     },
     {
       "rank": 14,
       "title": "脑蚀",
       "bvid": "BV1o58Q6UEik",
       "url": "https://www.bilibili.com/video/BV1o58Q6UEik",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/f2bc2a6a622ac470c34d42e4ab396dac3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/f2bc2a6a622ac470c34d42e4ab396dac3546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】東京真中 -  ブレインロット feat. 重音テト",
+        "duration": 126,
+        "pubdate": 1787727600,
+        "uploader": {
+          "mid": 3707053375753081,
+          "name": "東京真中official",
+          "face": "https://i1.hdslb.com/bfs/face/8d7591c2feb68d15bab847bc353a509d5172abda.jpg"
+        },
+        "stat": {
+          "view": 2705246,
+          "danmaku": 17173,
+          "reply": 20305,
+          "favorite": 161568,
+          "coin": 111623,
+          "share": 13195,
+          "like": 402972
+        }
+      }
     },
     {
       "rank": 15,
       "title": "霓虹",
       "bvid": "BV1q54y6REEa",
       "url": "https://www.bilibili.com/video/BV1q54y6REEa",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/58c92b737ac13d473084a49f93ce65353546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/58c92b737ac13d473084a49f93ce65353546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】Neon (霓虹) feat. Kasane Teto",
+        "duration": 140,
+        "pubdate": 1788350400,
+        "uploader": {
+          "mid": 3707044890675834,
+          "name": "Yowane_P",
+          "face": "https://i0.hdslb.com/bfs/face/007ad2867d6ff27c71b48398f3fd765e04ecbdc2.jpg"
+        },
+        "stat": {
+          "view": 468289,
+          "danmaku": 719,
+          "reply": 1590,
+          "favorite": 70846,
+          "coin": 22745,
+          "share": 3820,
+          "like": 81385
+        }
+      }
     },
     {
       "rank": 16,
       "title": "根本不明白吧",
       "bvid": "BV1JrgA6MEMG",
       "url": "https://www.bilibili.com/video/BV1JrgA6MEMG",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/7525b1f1865ca957e080461c1b45def53546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/7525b1f1865ca957e080461c1b45def53546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】分かっちゃいないね（还真是什么都不懂呢）/ monet feat.花隈千冬",
+        "duration": 237,
+        "pubdate": 1786678305,
+        "uploader": {
+          "mid": 3707030695053439,
+          "name": "monet_vocaloid",
+          "face": "https://i1.hdslb.com/bfs/face/97db14e7e85e42b068d9b1ecaa70240072513c97.jpg"
+        },
+        "stat": {
+          "view": 2391985,
+          "danmaku": 7611,
+          "reply": 5790,
+          "favorite": 229541,
+          "coin": 69649,
+          "share": 11270,
+          "like": 303426
+        }
+      }
     },
     {
       "rank": 17,
       "title": "燃尽",
       "bvid": "BV1Jk846WEmf",
       "url": "https://www.bilibili.com/video/BV1Jk846WEmf",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/1f980678714718a4696aee767cfc01253546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/1f980678714718a4696aee767cfc01253546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家】バーンアウト - 初音ミク【カササギ】",
+        "duration": 132,
+        "pubdate": 1787659200,
+        "uploader": {
+          "mid": 3546934367226632,
+          "name": "カササギ_柿崎ユウタ",
+          "face": "https://i2.hdslb.com/bfs/face/cae6c00b0c71df17853ee61506bed7e596dff7e7.jpg"
+        },
+        "stat": {
+          "view": 1528167,
+          "danmaku": 10612,
+          "reply": 7479,
+          "favorite": 113336,
+          "coin": 55588,
+          "share": 12415,
+          "like": 193511
+        }
+      }
     },
     {
       "rank": 18,
       "title": "请批准吧灯神先生!",
       "bvid": "BV1GzV36pE5h",
       "url": "https://www.bilibili.com/video/BV1GzV36pE5h",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/222e84abc9d6416d8fc0984bc841ea3b3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/222e84abc9d6416d8fc0984bc841ea3b3546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】请批准吧灯神先生! / 重音テト・音街ウナ",
+        "duration": 163,
+        "pubdate": 1780136128,
+        "uploader": {
+          "mid": 3706974501866453,
+          "name": "TRAP_CHICK",
+          "face": "https://i2.hdslb.com/bfs/face/c952ccc6474b185440e6c7e059e8ac98614c45a1.jpg"
+        },
+        "stat": {
+          "view": 16041478,
+          "danmaku": 73562,
+          "reply": 30598,
+          "favorite": 644896,
+          "coin": 215757,
+          "share": 48424,
+          "like": 755823
+        }
+      }
     },
     {
       "rank": 19,
       "title": "一门心思吃播",
       "bvid": "BV1JUMB6YEfr",
       "url": "https://www.bilibili.com/video/BV1JUMB6YEfr",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/d2b1272bb34e128e5678b63580a47dac3546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/d2b1272bb34e128e5678b63580a47dac3546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】MOPPARA MUKBANG feat. 初音ミク【appy】",
+        "duration": 153,
+        "pubdate": 1786100400,
+        "uploader": {
+          "mid": 253777922,
+          "name": "appy_Official",
+          "face": "https://i2.hdslb.com/bfs/face/f8e8e3b5f5ff2d846dfcd52c9aa3db97e4560aee.jpg"
+        },
+        "stat": {
+          "view": 2682729,
+          "danmaku": 11587,
+          "reply": 6292,
+          "favorite": 102037,
+          "coin": 21132,
+          "share": 3142,
+          "like": 154688
+        }
+      }
     },
     {
       "rank": 20,
       "title": "nan",
       "bvid": "BV1Naeb6CEPz",
       "url": "https://www.bilibili.com/video/BV1Naeb6CEPz",
-      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/71e3b606c95ca5be068c2c27cc268ee33546800279522160.jpg"
+      "pic_url": "http://i0.hdslb.com/bfs/new_dyn/71e3b606c95ca5be068c2c27cc268ee33546800279522160.jpg",
+      "video_meta": {
+        "title": "【本家投稿】妄想哀歌  / MIMI feat. 初音ミク＆可不【Official Video】",
+        "duration": 181,
+        "pubdate": 1789809439,
+        "uploader": {
+          "mid": 3632315527858571,
+          "name": "MIMI_music",
+          "face": "https://i2.hdslb.com/bfs/face/a1edf04505ccef5cdd2844a3256aa09b832ab157.jpg"
+        },
+        "stat": {
+          "view": 343559,
+          "danmaku": 973,
+          "reply": 2093,
+          "favorite": 52334,
+          "coin": 26230,
+          "share": 4448,
+          "like": 92704
+        }
+      }
     }
   ],
   "pub_time_str": "2026年10月07日 18:00",

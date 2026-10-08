@@ -210,6 +210,42 @@ def fetch_and_parse_detail(client: httpx.Client, opus_id: str, retries: int = 3)
     return results, pub_time_str, pub_ts
 
 
+def fetch_video_metadata(client: httpx.Client, bvid: str) -> Optional[Dict[str, Any]]:
+    if not bvid:
+        return None
+    url = f"https://api.bilibili.com/x/web-interface/view?bvid={bvid}"
+    try:
+        resp = client.get(url, timeout=10.0)
+        if resp.status_code == 200:
+            data = resp.json()
+            if data.get("code") == 0 and data.get("data"):
+                d = data["data"]
+                owner = d.get("owner") or {}
+                stat = d.get("stat") or {}
+                return {
+                    "title": d.get("title", ""),
+                    "duration": d.get("duration", 0),
+                    "pubdate": d.get("pubdate", 0),
+                    "uploader": {
+                        "mid": owner.get("mid", 0),
+                        "name": owner.get("name", ""),
+                        "face": owner.get("face", ""),
+                    },
+                    "stat": {
+                        "view": stat.get("view", 0),
+                        "danmaku": stat.get("danmaku", 0),
+                        "reply": stat.get("reply", 0),
+                        "favorite": stat.get("favorite", 0),
+                        "coin": stat.get("coin", 0),
+                        "share": stat.get("share", 0),
+                        "like": stat.get("like", 0),
+                    },
+                }
+    except Exception as e:
+        print(f"    [!] Error fetching video meta for {bvid}: {e}")
+    return None
+
+
 def save_json(file_path: Path, data: Any) -> None:
     file_path.parent.mkdir(parents=True, exist_ok=True)
     with open(file_path, "w", encoding="utf-8") as f:
@@ -263,6 +299,14 @@ def main():
             print(f"[*] Crawling issue {issue_num} (Opus ID: {opus_id})...")
             try:
                 items, pub_time_str, pub_ts = fetch_and_parse_detail(client, opus_id)
+
+                # 补充每首歌曲的详细视频元数据
+                for item in items:
+                    bvid = item.get("bvid")
+                    if bvid:
+                        item["video_meta"] = fetch_video_metadata(client, bvid)
+                        time.sleep(0.2)
+
                 detail_data = {
                     "issue": issue_num,
                     "type": meta["type"],
