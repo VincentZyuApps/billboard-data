@@ -101,7 +101,41 @@
 
 ## 🛠 本地运行
 
-使用现代 Python 包管理器 `uv`：
+本仓库爬虫基于 Python 3.10+ 开发，使用现代 Python 包管理器 `uv`。
+
+### 📦 运行方式选择
+
+#### 方式 A：`uv run` 脚本自包含运行（推荐，免手动装包）
+脚本头部已包含 PEP 723 单文件依赖声明，`uv` 会自动创建隔离环境并按需安装 `httpx`：
+```bash
+uv run scripts/crawler_bilibili.py [参数]
+uv run scripts/crawler_niconico.py [参数]
+```
+
+#### 方式 B：传统虚拟环境运行
+若你习惯使用已激活的 Python 虚拟环境：
+```bash
+# 1. 创建并激活虚拟环境（如已有可跳过）
+uv venv
+.venv\Scripts\activate   # Windows PowerShell / CMD
+# source .venv/bin/activate # Linux / macOS
+
+# 2. 安装依赖
+uv pip install httpx
+
+# 3. 运行爬虫脚本
+python scripts/crawler_bilibili.py [参数]
+python scripts/crawler_niconico.py [参数]
+```
+
+---
+
+### 🚀 常用执行命令
+
+参数说明：
+- `--incremental`：增量检查，遇到本地已存在的期数即停（日常巡检默认模式）
+- `--all`：全量遍历该 UP 主所有历史公开专栏
+- `--force`：强制重新下载并覆盖本地已存在的期数文件
 
 ```bash
 # B站周榜爬虫（增量 / 全量 / 强制刷新）
