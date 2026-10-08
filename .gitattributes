@@ -11,7 +11,8 @@ data/index.json linguist-detectable=true
 *.md linguist-detectable=true linguist-documentation=false
 docs/**/*.md linguist-detectable=true linguist-documentation=false
 
-# 显式将 GitHub Actions 工作流与 YAML 配置文件纳入 GitHub 语言统计
-.github/workflows/*.yml linguist-detectable=true
-*.yml linguist-detectable=true
-*.yaml linguist-detectable=true
+# 取消 .github 目录的 vendored 忽略，并将 Workflow YAML 强制纳入统计
+.github/** linguist-vendored=false
+.github/workflows/*.yml linguist-detectable=true linguist-language=YAML
+*.yml linguist-detectable=true linguist-language=YAML
+*.yaml linguist-detectable=true linguist-language=YAML
