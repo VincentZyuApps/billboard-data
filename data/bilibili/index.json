@@ -1,9 +1,23 @@
 {
   "source": "bilibili",
-  "updated_at": "2026-10-28T16:35:09.934565+00:00",
-  "latest_issue": 125,
-  "total_issues": 41,
+  "updated_at": "2026-11-04T17:57:16.377685+00:00",
+  "latest_issue": 126,
+  "total_issues": 42,
   "issues": [
+    {
+      "issue": 126,
+      "type": "weekly",
+      "opus_id": "1266792026912850018",
+      "title": "Bili_Board术力口周榜第126期2026年11月4日第44周",
+      "year": 2026,
+      "date": "2026-11-04",
+      "week": 44,
+      "pub_time_str": "2026年11月04日 18:00",
+      "pub_ts": "1793786403",
+      "total_ranked": 20,
+      "source_url": "https://www.bilibili.com/opus/1266792026912850018",
+      "path": "weekly/issue_126_2026-11-04.json"
+    },
     {
       "issue": 125,
       "type": "weekly",
