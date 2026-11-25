@@ -1,9 +1,23 @@
 {
   "source": "bilibili",
-  "updated_at": "2026-11-18T18:48:38.580697+00:00",
-  "latest_issue": 128,
-  "total_issues": 44,
+  "updated_at": "2026-11-25T19:53:23.766693+00:00",
+  "latest_issue": 129,
+  "total_issues": 45,
   "issues": [
+    {
+      "issue": 129,
+      "type": "weekly",
+      "opus_id": "1274584815626092566",
+      "title": "Bili_Board术力口周榜第129期2026年11月25日第47周",
+      "year": 2026,
+      "date": "2026-11-25",
+      "week": 47,
+      "pub_time_str": "2026年11月25日 18:00",
+      "pub_ts": "1795600803",
+      "total_ranked": 20,
+      "source_url": "https://www.bilibili.com/opus/1274584815626092566",
+      "path": "weekly/issue_129_2026-11-25.json"
+    },
     {
       "issue": 128,
       "type": "weekly",
